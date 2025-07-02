@@ -37,7 +37,7 @@ if submitted:
         st.warning("⚠️ Please fill in all required fields.")
     else:
         with st.spinner("Generating resume using Gemini..."):
-            API_KEY = "AIzaSyBggKzJMRlCs9UiOLWgCGJqp9M61eLNYuE" # Replace with your Gemini API Key
+            API_KEY = " " # Added the API key in my README File
             url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}"
 
             headers = {
