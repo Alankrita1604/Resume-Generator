@@ -63,7 +63,7 @@ Want to run this project on your own machine? Here's how to set it up:
 5.  Plug in your Gemini API Key:
     Open your main Streamlit file (it's likely named `resume_generator_app.py`) and find this line:
     ```python
-    API_KEY = "AIzaSyBggKzJMRlCs9UiOLWgCGJqp9M61eLNYuE" 
+    API_KEY = "" #api key added in the document which is uploaded on Prolearn 
     ```
     Replace the placeholder string with your actual Gemini API Key.
     Pro Tip: For real-world applications or deployments, it's much safer to use Streamlit secrets (`st.secrets`) instead of hardcoding your API key directly in the script.
